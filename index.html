@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="application.css" >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Summary Roman Kukla</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link  rel="stylesheet" href="style/styles.css">
+
 </head>
 <body>
+
 <! --main-->
-<div class="main">
+<div id="main">
     <! --main content-->
     <div class="main_content" >
         <! --about_me-->
@@ -21,50 +24,35 @@
             <h2 class="about_position">Ruby on Rails developer</h2>
             <h3 class="about_name">Roma Kukla</h3>
             <text class="about_description">
-                I am passionate about my work because I love what I do. Always find in myself steady source of motivation
-                that drives me to do my best. I am able to handle multiple tasks on a daily basis. I use a creative approach to problem solve and also
-                great at time management.If work need can be flexible in my working hours, being able to work evenings and weekends.
+                I am passionate about my work because I love what I do, always find in me a steady source of motivation that drives me to do my best. I am able to handle multiple tasks on a daily basis. I use a creative approach to problem-solving and also great at time management. If work needs can be flexible in my working hours, being able to work on weekends.
             </text>
         </div>
-        <! --Education-->
-        <div class="education">
-            <h3>Education</h3>
-            <h4>Cerkassy National Technology University</h4>
-            <h4 class="main_title">Program engineer<span>(bachelor and master)</span></h4>
-            <p class="date">September 2013 - Januar 2019</p>
-        </div>
-        <! --Work-->
+      <! --english-->
+      <div style="margin-top:1em;margin-bottom: 1em;">
+        <h3> ENGLISH </h3>
+        <text class="about_description">
+          my english level <span class="main_title">B1</span>, I used to do listening a lot but have  a lack of oral
+          practice and hope to compensate it soon. Would be nice to talk in english during the interview.
+        </text>
+      </div>
+      <h3>website developed by me:<a class="main_title" href="http://www.run-english.art">run-english.art</a> </h3>
+      <text class="about_description">github for it: <a style="color:black;" href="https://github.com/kukla1989/lenglish">
+          github.com/kukla1989/lenglish</a><br>
+      github for full authentication(without devise or any similar gem):  <a style="color:black;"
+               href="https://github.com/kukla1989/sample_app">github.com/kukla1989/sample_app</a> </text>
+
+      <! --Education-->
+      <div class="education">
+        <h3>Education</h3>
+        <h4>Cerkassy National Technology University</h4>
+        <h4 class="main_title">Program engineer<span>(bachelor and master)</span></h4>
+        <p class="date">September 2013 - Januar 2019</p>
+      </div>
+
+      <! --Work-->
         <div class="work">
-            <h3>Work experience</h3>
-            <! --company1-- >
-            <div>
-                <h5>
-                    main specialist department management of dealers
-                    <span class="main_title">Volia</span>
-                    <a class="link" href="https://volia.com/?partner=organic_search&utm_source=google&utm_medium=organic">volia.com</a>
-                </h5>
-                <p class="date">April 2019 - December 2019 </p>
-                <ul>
-                    <li>Installation of LAN</li>
-                    <li>Connect/disconnect users to cabl TV</li>
-                    <li>Sale product for customers</li>
-                </ul>
-            </div>
-            <! --company2-- >
-            <div>
-                <h5>
-                    support engineer
-                    <span class="main_title">AB "UKRGASBANK</span>
-                    <a class="link" href="http://www.ukrgasbank.com/"> ukrgasbank.com </a>
-                </h5>
-                <p class="date">June 2021 - August 2021</p>
-                <ul>
-                    <li>Setup and repair office equipment</li>
-                    <li>Diagnostics and troubleshooting of software and hardware problems</li>
-                    <li>Explain to users how to use office and other software programs</li>
-                </ul>
-            </div>
-            <! --company3-- >
+            <h3>Work experience <span class="main_title" style="font-size:0.65em;"></span> </h3>
+            <! --company 1-- >
             <div>
                 <h5>
                     support engineer
@@ -78,24 +66,52 @@
                     <li>documentation management</li>
                 </ul>
             </div>
+            <! --company 2-- >
+            <div>
+                <h5>
+                    support engineer
+                    <span class="main_title">AB "UKRGASBANK</span>
+                    <a class="link" href="http://www.ukrgasbank.com/"> ukrgasbank.com </a>
+                </h5>
+                <p class="date">June 2021 - August 2021</p>
+                <ul>
+                    <li>Setup and repair office equipment</li>
+                    <li>Diagnostics and troubleshooting of software and hardware problems</li>
+                    <li>Explain to users how to use office and other software programs</li>
+                </ul>
+            </div>
+            <! --company 3-- >
+            <div>
+                <h5>
+                    support engineer
+                    <span class="main_title">Volia</span>
+                    <a class="link" href="https://volia.com/?partner=organic_search&utm_source=google&utm_medium=organic">volia.com</a>
+                </h5>
+                <p class="date">April 2019 - December 2019 </p>
+                <ul>
+                    <li>Installation of LAN</li>
+                    <li>Connect/disconnect users to cabl TV</li>
+                    <li>Sale product for customers</li>
+                </ul>
+            </div>
         </div>
     </div>
     <! --sidebar-->
     <aside>
-        <img src="me.png" alt="my photo" width="280" height="300">
+        <img src="images/me.png" alt="my photo" height="300" width="280" style="margin-left: 0.35em;">
         <! --Contact-->
         <div class="sidebar_except_photo">
             <h3 class="sidebar_title">Contact</h3>
             <p>
-                <img src="img/phone.png" class="sidebar_icon">
+                <img src="images/phone.png" alt="phone.ico" class="sidebar_icon">
                 <a href="tel:+380930344021" class="sidebar_data"> +38 093 0344 021 </a>
             </p>
             <p>
-                <img src="img/mail.png" class="sidebar_icon">
+                <img src="images/mail.png" alt="mail.ico" class="sidebar_icon">
                 <a href="mailto:romankyk@gmail.com" class="sidebar_data"> romankyk@gmail.com </a>
             </p>
             <p>
-                <img src="img/telegram.png" class="sidebar_icon">
+                <img src="images/telegram.png" alt="telegram.ico" class="sidebar_icon">
                 <a href="https://telegram.me/roman_kukla" class="sidebar_data">Telegram</a>
             </p>
         </div>
@@ -103,10 +119,12 @@
         <div class="sidebar_except_photo">
             <h3 class="sidebar_title">Tech skills</h3>
             <ul class="sidebar_data">
+                <li class="sidebar_dot"><span class="sidebar_data">RUBY ON RAILS</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">JS</span></li>
                 <li class="sidebar_dot"><span class="sidebar_data">HTML5</span></li>
                 <li class="sidebar_dot"><span class="sidebar_data">CSS</span></li>
                 <li class="sidebar_dot"><span class="sidebar_data">GIT</span></li>
-                <li class="sidebar_dot"><span class="sidebar_data">RUBY ON RAILS</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">PostgreSQL, MySQL</span></li>
             </ul>
         </div>
         <! --Soft skills-->
@@ -121,5 +139,13 @@
         </div>
     </aside>
 </div>
+    <script>
+      //element = document.getElementById("main")
+      if(screen.width > 800){
+          document.getElementById("main").style.width = "70%";
+      } else {
+         document.getElementById("main").style.width = "98%";
+      }
+    </script>
 </body>
 </html>
